@@ -1,8 +1,8 @@
 --------------------------------------------------------
---  DDL for NSCC Application Form DATABASE
+--  Database DDL for NSCC Application Form
 --  Author: Ryan Sutcliffe (w0143446)
 --  Created: February 10, 2016
---  Last Modified: February 16, 2016
+--  Last Modified: February 19, 2016
 --  DDL Created in SQL Developer and exported to DDL text
 --------------------------------------------------------
 	
@@ -131,7 +131,6 @@
 --  Constraints for Table PERSONALINFO
   ALTER TABLE "RYAN_DDL"."PERSONALINFO" MODIFY ("FNAME" NOT NULL ENABLE);
   ALTER TABLE "RYAN_DDL"."PERSONALINFO" MODIFY ("ENGLISH" NOT NULL ENABLE);
-  ALTER TABLE "RYAN_DDL"."PERSONALINFO" MODIFY ("STUDENTID" NOT NULL ENABLE);
   ALTER TABLE "RYAN_DDL"."PERSONALINFO" MODIFY ("CITIZENSHIP" NOT NULL ENABLE);
   ALTER TABLE "RYAN_DDL"."PERSONALINFO" ADD CONSTRAINT "PERSONALINFO_PK" PRIMARY KEY ("APPLICATIONID");
   ALTER TABLE "RYAN_DDL"."PERSONALINFO" MODIFY ("BIRTHDATE" NOT NULL ENABLE);
